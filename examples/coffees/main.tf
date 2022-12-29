@@ -12,8 +12,8 @@ provider "hashicups" {
   password = "test123"
 }
 
-data "hashicups_coffees" "edu" {}
+data "hashicups_coffees" "edu123" {}
 
 output "edu_coffees" {
-  value = data.hashicups_coffees.edu
+  value = data.hashicups_coffees.edu123
 }
